@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  font-family: "roboto", sans-serif;
+}
+
+img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+#foto-maria {
+  width: 3em;
+  height: 3em;
+}
+
+svg {
+  width: 1.5em;
+}
+
+.logos {
+  display: flex;
+  gap: 20px;
+}
+
+aside {
+  background-color: white;
+  width: 20%;
+  height: 100vh;
+  border-right: 2px solid #e8ebe4;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  align-items: center;
+}
+
+li {
+  width: 100%;
+  border-bottom: 1px solid #e8ebe4;
+}
+
+#container-chat {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 1em;
+  width: 100%;
+}
+
+#container-chat P {
+  font-size: 0.9em;
+  font-style: normal;
+  color: #bec1bb;
+  margin-top: 0.2em;
+}
+
+#container-chat h2 {
+  font-size: 1.2em;
+  font-style: normal;
+  color: #000000;
+}
+
+#last-chat {
+  border-bottom: none;
+}
+
+.container-chat {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 1em;
+  width: 100%;
+}
+
+.info-contacto {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+.status-contacto {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+}
+
+.status-contacto p {
+  width: 200px;
+  margin-top: 0.4em;
+}
+
+h3 {
+  font-size: 1.2em;
+  font-weight: 700;
+  color: #000000;
+}
+
+/* ---------- BUTTON ---------- */
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+}
+
+button {
+  background-color: #a491d2;
+  color: white;
+  border: 1px solid #a491d2;
+  padding: 1em 2em;
+  width: 13rem;
+}
+button:hover {
+  background-color: #cdc3e6;
+  cursor: pointer;
+}
+button:focus {
+  outline: none;
+  background-color: #bec1bb;
+}
+
+button p {
+  font-size: 1.2em;
+}
+
+/* ---------- MAIN ---------- */
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 80%;
+  height: 100vh;
+  background-color: #f4f0ff;
+}
+
+.info-imagen {
+  margin-top: 2em;
+  text-align: center;
+}
+
+.info-imagen h1 {
+  font-size: 4em;
+}
+
+.info-imagen p {
+  font-size: 1.5em;
+  margin-top: 0.5em;
+}
+
+main img {
+  width: 15em;
+  height: 15em;
+  border-radius: 0.5em;
+}
